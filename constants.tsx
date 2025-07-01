@@ -389,7 +389,59 @@ export const LEADERBOARD_DATA: LeaderboardUser[] = [
     tokens: 130,
     avatarUrl: 'https://i.pravatar.cc/150?img=3',
   },
+  {
+    rank: 4,
+    name: "Priya Mehta",
+    location: "Maharashtra",
+    tokens: 105,
+    avatarUrl: "https://i.pravatar.cc/150?img=4",
+  },
+  {
+    rank: 5,
+    name: "Amit Verma",
+    location: "Rajasthan",
+    tokens: 100,
+    avatarUrl: "https://i.pravatar.cc/150?img=5",
+  },
+  {
+    rank: 6,
+    name: "Neha Sharma",
+    location: "Punjab",
+    tokens: 98,
+    avatarUrl: "https://i.pravatar.cc/150?img=6",
+  },
+  {
+    rank: 7,
+    name: "Mohit Raj",
+    location: "Jharkhand",
+    tokens: 95,
+    avatarUrl: "https://i.pravatar.cc/150?img=7",
+  },
+  {
+    rank: 8,
+    name: "Deepika Patel",
+    location: "Madhya Pradesh",
+    tokens: 90,
+    avatarUrl: "https://i.pravatar.cc/150?img=8",
+  },
+  {
+    rank: 9,
+    name: "Sanjay Yadav",
+    location: "Haryana",
+    tokens: 85,
+    avatarUrl: "https://i.pravatar.cc/150?img=9",
+  },
+  {
+    rank: 10,
+    name: "Farhan Ali",
+    location: "Kolkata",
+    tokens: 80,
+    avatarUrl: "https://i.pravatar.cc/150?img=10",
+  },
 ];
+
+
+
 import { RedeemPerk } from './types';
 
 export const REDEEM_PERKS: RedeemPerk[] = [
