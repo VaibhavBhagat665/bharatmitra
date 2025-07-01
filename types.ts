@@ -1,3 +1,5 @@
+// types.ts
+
 export enum MessageSender {
   USER = 'user',
   AI = 'ai',
@@ -10,17 +12,6 @@ export interface ChatMessage {
   timestamp: string;
 }
 
-export interface Scheme {
-  id: string;
-  title: string;
-  department: string;
-  description: string;
-  eligibility: string;
-  link: string;
-  category: string;     // ✅ e.g., 'Student', 'Farmer', 'Women'
-  tags?: string[];      // ✅ e.g., ['urgent', 'women']
-}
-
 export interface LeaderboardUser {
   rank: number;
   name: string;
@@ -29,6 +20,28 @@ export interface LeaderboardUser {
   avatarUrl: string;
 }
 
+export interface RedeemPerk {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+}
+
+// ✅ Use this interface for displaying & filtering schemes
+export interface Scheme {
+  id: string;
+  title: string;
+  department: string;
+  description: string;
+  eligibility: string;
+  link: string;
+  category: string; // Student, Farmer, Women, etc.
+  tags?: string[];
+  type: string;
+}
+
+// ✅ Use this interface for scholarship-specific filtering
 export interface Scholarship {
   id: string;
   name: string;
@@ -52,12 +65,4 @@ export interface ScholarshipCriteria {
   caste: string;
   income: number | null;
   state: string;
-}
-
-export interface RedeemPerk {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import { RECOMMENDED_SCHEMES } from '../constants';
+import { RECOMMENDED_SCHEMES, LEADERBOARD_DATA, REDEEM_PERKS } from '../constants';
+
 import SchemeCard from '../components/SchemeCard';
 
 const BenefitsPage: React.FC = () => {

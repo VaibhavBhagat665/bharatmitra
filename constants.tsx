@@ -1,6 +1,4 @@
-import { Scheme, LeaderboardUser, RedeemPerk } from './types';
-import { StoreIcon } from './components/icons/StoreIcon';
-import { ScholarshipIcon } from './components/icons/ScholarshipIcon';
+import { Scheme } from './types';
 
 export const RECOMMENDED_SCHEMES: Scheme[] = [
   {
@@ -12,6 +10,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://scholarships.gov.in',
     category: 'Student',
     tags: ['student', 'urgent'],
+    type: 'Scholarship',
   },
   {
     id: '2',
@@ -22,6 +21,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://pmkisan.gov.in',
     category: 'Farmer',
     tags: ['farmer'],
+    type: 'Farmer Loan',
   },
   {
     id: '3',
@@ -32,10 +32,8 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://wcd.nic.in',
     category: 'Women',
     tags: ['women'],
+    type: 'Women Support',
   },
-
-  // === All 30 Scholarships Added Below ===
-
   {
     id: '4',
     title: 'Central Sector Scholarship',
@@ -45,6 +43,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://scholarships.gov.in/',
     category: 'Scholarship',
     tags: ['college', 'merit'],
+    type: 'Scholarship',
   },
   {
     id: '5',
@@ -55,6 +54,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.aicte-india.org/schemes/students-development-schemes/Pragati',
     category: 'Scholarship',
     tags: ['girls', 'engineering'],
+    type: 'Scholarship',
   },
   {
     id: '6',
@@ -65,6 +65,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://yet.nta.ac.in/',
     category: 'Scholarship',
     tags: ['obc', 'minority'],
+    type: 'Scholarship',
   },
   {
     id: '7',
@@ -75,6 +76,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://scholarship.up.gov.in/',
     category: 'Scholarship',
     tags: ['state', 'up'],
+    type: 'Scholarship',
   },
   {
     id: '8',
@@ -85,6 +87,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://ncert.nic.in',
     category: 'Scholarship',
     tags: ['school', 'merit'],
+    type: 'Scholarship',
   },
   {
     id: '9',
@@ -95,6 +98,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://online-inspire.gov.in/',
     category: 'Scholarship',
     tags: ['science'],
+    type: 'Scholarship',
   },
   {
     id: '10',
@@ -105,6 +109,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'http://kvpy.iisc.ernet.in/',
     category: 'Scholarship',
     tags: ['research'],
+    type: 'Scholarship',
   },
   {
     id: '11',
@@ -115,6 +120,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://aicte-india.org/schemes/students-development-schemes/Saksham',
     category: 'Scholarship',
     tags: ['disability'],
+    type: 'Scholarship',
   },
   {
     id: '12',
@@ -125,6 +131,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://ugc.ac.in',
     category: 'Scholarship',
     tags: ['obc'],
+    type: 'Scholarship',
   },
   {
     id: '13',
@@ -135,6 +142,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://minorityaffairs.gov.in',
     category: 'Scholarship',
     tags: ['minority'],
+    type: 'Scholarship',
   },
   {
     id: '14',
@@ -145,6 +153,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://maef.nic.in',
     category: 'Scholarship',
     tags: ['female'],
+    type: 'Scholarship',
   },
   {
     id: '15',
@@ -155,6 +164,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://scholarships.gov.in',
     category: 'Scholarship',
     tags: ['school'],
+    type: 'Scholarship',
   },
   {
     id: '16',
@@ -165,6 +175,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://ugc.ac.in',
     category: 'Scholarship',
     tags: ['northeast'],
+    type: 'Scholarship',
   },
   {
     id: '17',
@@ -175,6 +186,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://pmrf.in',
     category: 'Scholarship',
     tags: ['phd'],
+    type: 'Scholarship',
   },
   {
     id: '18',
@@ -185,6 +197,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://aiimsexams.ac.in',
     category: 'Scholarship',
     tags: ['medical'],
+    type: 'Scholarship',
   },
   {
     id: '19',
@@ -195,6 +208,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://csirnet.nta.ac.in',
     category: 'Scholarship',
     tags: ['jrf'],
+    type: 'Scholarship',
   },
   {
     id: '20',
@@ -205,6 +219,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://ugcnet.nta.nic.in',
     category: 'Scholarship',
     tags: ['ugc'],
+    type: 'Scholarship',
   },
   {
     id: '21',
@@ -215,6 +230,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://licindia.in',
     category: 'Scholarship',
     tags: ['lic'],
+    type: 'Scholarship',
   },
   {
     id: '22',
@@ -225,6 +241,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.siemens.co.in',
     category: 'Scholarship',
     tags: ['engineering'],
+    type: 'Scholarship',
   },
   {
     id: '23',
@@ -235,6 +252,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://ffe.org',
     category: 'Scholarship',
     tags: ['tech', 'mbbs'],
+    type: 'Scholarship',
   },
   {
     id: '24',
@@ -245,6 +263,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://education.gov.in',
     category: 'Scholarship',
     tags: ['gate'],
+    type: 'Scholarship',
   },
   {
     id: '25',
@@ -255,6 +274,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://buddy4study.com',
     category: 'Scholarship',
     tags: ['design'],
+    type: 'Scholarship',
   },
   {
     id: '26',
@@ -265,6 +285,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://buddy4study.com',
     category: 'Scholarship',
     tags: ['hdfc'],
+    type: 'Scholarship',
   },
   {
     id: '27',
@@ -275,6 +296,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.ongcscholar.org',
     category: 'Scholarship',
     tags: ['merit'],
+    type: 'Scholarship',
   },
   {
     id: '28',
@@ -285,6 +307,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.adityabirlascholars.net',
     category: 'Scholarship',
     tags: ['mba', 'law'],
+    type: 'Scholarship',
   },
   {
     id: '29',
@@ -295,6 +318,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'http://www.sitaramjindalfoundation.org',
     category: 'Scholarship',
     tags: ['jindal'],
+    type: 'Scholarship',
   },
   {
     id: '30',
@@ -305,6 +329,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.sashaktscholarship.org',
     category: 'Scholarship',
     tags: ['female', 'science'],
+    type: 'Scholarship',
   },
   {
     id: '31',
@@ -315,6 +340,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.ongcscholar.org',
     category: 'Scholarship',
     tags: ['sc', 'st'],
+    type: 'Scholarship',
   },
   {
     id: '32',
@@ -325,6 +351,7 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.tatatrusts.org',
     category: 'Scholarship',
     tags: ['trust'],
+    type: 'Scholarship',
   },
   {
     id: '33',
@@ -335,40 +362,56 @@ export const RECOMMENDED_SCHEMES: Scheme[] = [
     link: 'https://www.fairandlovelyfoundation.in',
     category: 'Scholarship',
     tags: ['female'],
+    type: 'Scholarship',
   },
 ];
+import { LeaderboardUser } from './types';
 
 export const LEADERBOARD_DATA: LeaderboardUser[] = [
-  { rank: 1, name: 'Ramesh Kumar', location: 'Punjab', tokens: 250, avatarUrl: 'https://i.pravatar.cc/150?img=1' },
-  { rank: 2, name: 'Sunita Devi', location: 'Uttar Pradesh', tokens: 235, avatarUrl: 'https://i.pravatar.cc/150?img=5' },
-  { rank: 3, name: 'Arjun Singh', location: 'Rajasthan', tokens: 210, avatarUrl: 'https://i.pravatar.cc/150?img=3' },
-  { rank: 4, name: 'Priya Sharma', location: 'Maharashtra', tokens: 198, avatarUrl: 'https://i.pravatar.cc/150?img=8' },
-  { rank: 5, name: 'Amit Patel', location: 'Gujarat', tokens: 180, avatarUrl: 'https://i.pravatar.cc/150?img=7' },
-  { rank: 6, name: 'Kavita Reddy', location: 'Andhra Pradesh', tokens: 172, avatarUrl: 'https://i.pravatar.cc/150?img=11' },
-  { rank: 7, name: 'Sandeep Tiwari', location: 'Madhya Pradesh', tokens: 165, avatarUrl: 'https://i.pravatar.cc/150?img=12' },
-  { rank: 8, name: 'Anjali Das', location: 'West Bengal', tokens: 150, avatarUrl: 'https://i.pravatar.cc/150?img=14' },
+  {
+    rank: 1,
+    name: 'Ravi Sharma',
+    location: 'Delhi',
+    tokens: 150,
+    avatarUrl: 'https://i.pravatar.cc/150?img=1',
+  },
+  {
+    rank: 2,
+    name: 'Neha Verma',
+    location: 'Mumbai',
+    tokens: 140,
+    avatarUrl: 'https://i.pravatar.cc/150?img=2',
+  },
+  {
+    rank: 3,
+    name: 'Amit Kumar',
+    location: 'Kolkata',
+    tokens: 130,
+    avatarUrl: 'https://i.pravatar.cc/150?img=3',
+  },
 ];
+import { RedeemPerk } from './types';
 
 export const REDEEM_PERKS: RedeemPerk[] = [
   {
-    id: 'resume-review',
-    name: 'AI Resume Review',
-    description: 'Get an expert-level review of your resume, highlighting strengths and areas for improvement.',
+    id: '1',
+    name: 'Free Counseling Session',
+    description: 'Get expert advice on scholarship applications.',
+    price: 30,
+    icon: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>,
+  },
+  {
+    id: '2',
+    name: 'Resume Review',
+    description: 'Improve your resume for scholarship interviews.',
     price: 50,
-    icon: ScholarshipIcon,
+    icon: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></svg>,
   },
   {
-    id: 'study-pdf',
-    name: 'Exclusive Study Materials PDF',
-    description: 'Download a PDF with curated study notes for competitive exams.',
-    price: 75,
-    icon: StoreIcon,
-  },
-  {
-    id: 'mock-interview',
-    name: 'Mock Interview Session',
-    description: 'A 30-minute one-on-one mock interview session with an AI career coach.',
-    price: 150,
-    icon: ScholarshipIcon,
-  },
+    id: '3',
+    name: 'Priority Support',
+    description: 'Get faster support from our team.',
+    price: 20,
+    icon: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M12 20c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z" /></svg>,
+  }
 ];
